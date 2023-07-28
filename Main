@@ -6,3 +6,4 @@ if PlaceId == 4623386862 or PlaceId == 5247067896 or PlaceId == 5661005779 then
     loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconBABA/T-HUB/main/Piggy")()
 if PlaceId == NaN then
     loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconBABA/T-HUB/main/Universe")()
+end
