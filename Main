@@ -1,4 +1,5 @@
 repeat wait() until game:IsLoaded()
 local PlaceId = game.PlaceId
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/BF")()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconBABA/T-HUB/main/BF%20auto%20chest")()
+if PlaceId == 4623386862 or PlaceId == 5247067896 or PlaceId == 5661005779 then
