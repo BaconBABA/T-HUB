@@ -1,4 +1,4 @@
-local userkey = "https://pastebin.com/raw/PUTGrgBQ"
+local userkey = "https://pastebin.com/raw/R6bdae4j"
 local blacklist = "https://pastebin.com/raw/VcQpGypF"
 local key = game:HttpGet(userkey, true)
 banned = game:HttpGet(blacklist, true)
