@@ -1,3 +1,11 @@
+local userkey = "https://pastebin.com/raw/PUTGrgBQ"
+local blacklist = "https://pastebin.com/raw/VcQpGypF"
+local key = game:HttpGet(userkey, true)
+banned = game:HttpGet(blacklist, true)
+plr = game.Players.LocalPlayer
+
+if string.find(key,_G.Key) then
+
 repeat wait() until game:IsLoaded()
 local PlaceId = game.PlaceId
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
@@ -7,3 +15,6 @@ elseif PlaceId == 4623386862 or PlaceId == 5247067896 or PlaceId == 5661005779 t
 end   
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconBABA/T-HUB/main/Universe")()
+else
+plr:kick("no")
+end
